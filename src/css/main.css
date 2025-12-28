@@ -356,3 +356,37 @@ font-size: 41px;
         line-height: 1.55556;
         color: #fff;
 }
+@media only screen and (min-width: 1440px) {
+ .how-section{
+    background-image: url("/img/how/desk.png");
+ }
+ .how-title{
+    font-size: 52px;
+ }
+ .how-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-top: 68px;
+ }
+ .how-win{
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+ .how-list{
+    gap: 40px;
+    width: 655px;
+ }
+ .how-item-wrapper{
+    width: 511px;
+ }
+ .how-item{
+    align-items: center;
+ }
+ .how-subtitle{
+    font-size: 20px;
+ }
+ .how-text{
+    font-size: 20px;
+ }
+}
