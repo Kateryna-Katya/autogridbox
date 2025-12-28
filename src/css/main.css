@@ -322,3 +322,37 @@ width: 100%;
     border-radius: 20px;
 }
 }
+/* HOW IT WORKS */
+.how-section{
+    background-image: url("/img/how/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.how-title{
+font-size: 41px;
+}
+.how-win{
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+     gap: 28px;
+}
+.how-item{
+    display: flex;
+    gap: 24px;
+    align-items: start;
+}
+.how-item-wrapper{
+    width: 253px;
+}
+.how-subtitle{
+    font-family: "Candal", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55556;
+        color: #fff;
+}
