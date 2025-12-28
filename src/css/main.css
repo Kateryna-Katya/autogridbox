@@ -190,8 +190,8 @@ margin-right: auto;
 }
 .demo-container {
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
@@ -238,9 +238,9 @@ margin-right: auto;
 
 .iframe-wrapper {
     position: absolute;
-    top: 5%;
-    left: 38%;
-    transform: translateX(-50%);
+    top: 9%;
+    left: 42%;
+    transform: translateX(-48%);
     width: 68%;
     height: 54%;
     z-index: 20;
@@ -250,8 +250,8 @@ margin-right: auto;
 }
 
 #gameIframe {
-    width: 138%;
-    height: 166%;
+    width: 119%;
+    height: 150%;
     border: none;
     display: none;
     background: #000;
@@ -271,8 +271,8 @@ margin-right: auto;
 
 #closeIframeBtn {
     position: absolute;
-    top: 30px;
-    right: -80px;
+    top: 20px;
+    right: -40px;
 
     background: none;
     border: none;
@@ -287,4 +287,38 @@ margin-right: auto;
 
 #closeIframeBtn.active {
     display: block;
+}
+@media only screen and (min-width: 1440px) {
+ .demo-section{
+    background-image: url("/img/demo/back-desk.png");
+ }
+ .demo-wrapper {
+ height: auto;
+ }
+
+ .game-img {
+width: 100%;
+    height: auto;
+ }
+.iframe-wrapper {
+    position: absolute;
+    top: 8%;
+    left: 39%;
+    transform: translateX(-48%);
+    width: 68%;
+    height: 54%;
+    z-index: 20;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+    width: 128%;
+    height: 156%;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 20px;
+}
 }
