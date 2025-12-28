@@ -390,3 +390,49 @@ font-size: 41px;
     font-size: 20px;
  }
 }
+/* Symbols */
+.symbols-section{
+    background-image: url("/img/symbols/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.symbols-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+}
+.symbols-item{
+    border: 4px solid #41e909;
+        border-radius: 20px;
+        padding: 20px;
+        width: 335px;
+        height: auto;
+        background: rgba(50, 132, 23, 0.76);
+        font-family: "Candal", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.55556;
+            color: #fff;
+}
+.symbols-container{
+    padding-bottom: 440px;
+}
+@media only screen and (min-width: 1440px) {
+    .symbols-section{
+        background-image: url("/img/symbols/desk.png");
+    }
+    .symbols-list{
+        margin-top: 64px;
+        width: 661px;
+    }
+    .symbols-container{
+        padding-bottom: 197px;
+    }
+    .symbols-item{
+        width: 661px;
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+}
