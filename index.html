@@ -4,53 +4,44 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/autogridbox/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Candal&family=Khula:wght@300;400;600;700;800&display=swap"
+          rel="stylesheet">
+    <title>Triple Chili</title>
     <script type="module" crossorigin src="/autogridbox/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/autogridbox/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/autogridbox/assets/styles-CFPCpPNL.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section" id="home">
+    <div class="container hero-container">
+        <h1 class="visually-hidden">Triple Chili</h1>
+        <picture>
+            <source srcset="/autogridbox/assets/logo-desk-CH0jkQef.png 1x, /autogridbox/assets/logo-desk@2x-BLxPs-TE.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/autogridbox/assets/logo-mob-oSLy8jt_.png 1x, /autogridbox/assets/logo-mob@2x-DO_X5Rxm.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-logo" src="/autogridbox/assets/logo-mob-oSLy8jt_.png" alt="Triple Chili" loading="lazy" />
+        </picture>
+        <h2 class="hero-subtitle">Heat That Never Sleeps</h2>
+        <p class="hero-text">Think ancient Mayan temples meet spicy New World peppers – that's the vibe we're going for here.</p>
+        <a class="hero-button" href="#demo">
+            <picture>
+                <source srcset="/autogridbox/assets/desk-btn-DKWLwqak.png 1x, /autogridbox/assets/desk-btn@2x-BLYGmcpV.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/autogridbox/assets/mob-btn-C-9FIg5q.png 1x, /autogridbox/assets/mob-btn@2x-B6pVzr1b.png 2x" media="(max-width: 1438px)" />
+                <img class="hero-btn pulse" src="/autogridbox/assets/mob-btn-C-9FIg5q.png" alt="Enter" loading="lazy" />
+            </picture>
+        </a>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
