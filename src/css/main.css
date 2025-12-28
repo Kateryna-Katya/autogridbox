@@ -150,3 +150,32 @@ width: 270px;
 .about-span{
     font-weight: 700;
 }
+@media only screen and (min-width: 1440px) {
+  .about-section{
+    background-image: url("/img/about/back-desk.png");
+  }
+  .about-text-wrapper{
+    background-image: url("/img/about/desk-one.png");
+    width: 1200px;
+    height: 551px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .about-container{
+    padding-top: 195px;
+  }
+  .about-img{
+    top:-30%;
+ min-width: 1300px;
+left: 50%;
+    transform: translateX(-50%);
+  }
+  .about-text-wrapper p {
+      width: 624px;
+text-align: left;
+margin-left: 100px;
+margin-right: auto;
+  }
+}
